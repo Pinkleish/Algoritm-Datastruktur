@@ -40,6 +40,7 @@ public class TestSort {
         IntSorter quickSorter = new QuickSorter();
         IntSorter insertionMergeSorter = new InsertionMergeSorter();
         IntSorter insertionQuickSorter = new QuickSorter();
+        IntSorter treeSorter = new TreeSorter();
         
         int firstN = 10000;
 
@@ -54,8 +55,8 @@ public class TestSort {
 
         //System.out.println("Testing MergeSort on random arrays:");
         //testSort(mergeSorter, 1000, false);
-        System.out.println("Testing InsertionMergeSort on random arrays:");
-        testSort(insertionMergeSorter, 1000, false);
+        System.out.println("Testing TreeSort on random arrays:");
+        testSort(treeSorter, 1000, false);
 
         System.out.println("\n"+sorter.getClass().getName()+".sort tested ok!");
         System.exit(0);
