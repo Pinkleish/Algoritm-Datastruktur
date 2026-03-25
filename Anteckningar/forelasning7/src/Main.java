@@ -55,7 +55,7 @@ Däremot kan det betyda att roten är mindre än sina barn, då tvingas vi anvä
 Detta tar O(lg(N)) tid
 
 ## Heapbyggtid ##
-På djup h -> N/"^[k+1) noder kan kräva 2k jämförelser
+På djup h -> N/2^(k+1) noder kan kräva 2k jämförelser
 Totalt (SUMMA TECKEN) 2k/2^[k+1] jämförelser = 2 alltså 2N linjär tid.
 
 
